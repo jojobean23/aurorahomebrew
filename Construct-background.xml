@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf=8" ?>
+<elements>
+    <info>
+        <name>Construct Background</name>
+        <description>Basic background for Constructs</description>
+        <author url="https://yeahno.com"> jojo paku</author>
+        <update version="1.0.0">
+            <file name="Construct-background.xml" />
+        </update>
+    </info>
+
+    <element name="Construct" type="background" source="Homebrew" id="yes_yes_yes">
+        <description>
+            <p>You were made, not born. For some reason you have been crafted by a skilled tinkerer, wizard, engineer, or other craftsman. Were you build for a war cresting the horizon? Was your maker a lonely hermit who made you as a companion, but died when (s)he finished? Are you an ancient guardian of a sacred location.</p>
+            <ul>
+                <li><strong>Skill Proficiencies:</strong> You can select two skills from Arcana, History, Religion, Animal handling, Insight, or Performance</li>
+                <li><strong>Tool Proficiencies:</strong> Artificiers Tools</li>
+                <li><strong>Languages:</strong> An ewxotic language of your choice</li>
+                <li><strong>Equipment:</strong> Common clothes (if you apear humanoid), a pouch with 10gp, a sketchbook with your designs inside, Artificiers tools.</li>
+            </ul>
+            <div element="ID_NV" />
+        </description>
+        <<rules>
+            <select type="Proficiency" name="Skill Proficiency, Construct" supports="Skill" number="2" />
+            <select type="Proficiency" name="Tool Proficiency, Construct" supports="Tool" />
+            <select type="Language" name="Language, " supports="Exotic" />
+        </rules>
+    </element>
+    <element name="Feature:Construct Image" type="Background Feature" source="Yes" id="nope_nope">
+        <description>
+            <p>You apear robotic and don't blend into a croud. Xenophobia against you is common umung most races, but the wisest races are facinated by you and wish to study you. </p>
+            </element>
+        </element>
