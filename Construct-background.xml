@@ -20,7 +20,7 @@
             </ul>
             <div element="ID_NV" />
         </description>
-        <<rules>
+        <rules>
             <select type="Proficiency" name="Skill Proficiency, Construct" supports="Skill" number="2" />
             <select type="Proficiency" name="Tool Proficiency, Construct" supports="Tool" />
             <select type="Language" name="Language, " supports="Exotic" />
